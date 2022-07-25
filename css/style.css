@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+  background-color: #222222;
+}
+header i {
+  font-size: 25px;
+  color: #F3F3F3;
+}
+header div.navoculta {
+  display: none;
+}
+
+main section.primera {
+  background-image: url(../img/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 134px 39px;
+}
+main section.primera p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #F3F3F3;
+  text-align: center;
+}
+main section.primera p span {
+  color: #D01418;
+}
+main section.primera button {
+  background-color: #D01418;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #F3F3F3;
+  padding: 16px 61px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
+}
+main section.segunda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+}
+main section.segunda h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  padding: 65px 0px 25px 0px;
+}
+main section.segunda div.productosdestacados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section.segunda div.productosdestacados div.juego {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+main section.segunda div.productosdestacados div.juego img {
+  padding: 30px 55px;
+}
+main section.segunda div.productosdestacados div.juego div {
+  padding: 21px 20px;
+}
+main section.segunda div.productosdestacados div.juego div h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  line-height: 23px;
+}
+main section.segunda div.productosdestacados div.juego div p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  line-height: 15px;
+}
+main section.segunda div.productosdestacados div.juego div p.envio {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  line-height: 12px;
+  color: #619D00;
+}
+main section.segunda div.productosestrella {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+main section.segunda div.productosestrella img {
+  padding: 24px 70px;
+  border-radius: 20%;
+}
+
+footer section.primerfooter {
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer section.primerfooter img {
+  padding-top: 29px;
+}
+footer section.primerfooter div.redes {
+  padding: 10px;
+}
+footer section.primerfooter div.redes p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  line-height: 29px;
+  padding-top: 30px;
+  color: #FFFFFF;
+}
+footer section.primerfooter div.redes i {
+  font-size: 25px;
+  padding: 15px;
+}
+footer section.primerfooter div.redes i.fa-twitter {
+  color: #14AED0;
+}
+footer section.primerfooter div.redes i.fa-facebook-f {
+  color: #1476D0;
+}
+footer section.primerfooter div.redes i.fa-instagram {
+  color: #CE0CFF;
+}
+footer section {
+  background-color: #C4C4C4;
+}
+footer section p {
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  padding: 7px 0px;
+}
+
+@media (min-width: 480px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    background-color: #222222;
+  }
+  header i.fa-bars {
+    display: none;
+  }
+  header div.navoculta {
+    display: flex;
+  }
+  header div.navoculta ul {
+    display: flex;
+  }
+  header div.navoculta ul li {
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    padding: 8px;
+  }
+  header div.navoculta i.fa-cart-shopping {
+    padding: 6px;
+  }
+  main section.primera {
+    padding: 187px 0px;
+  }
+  main section.segunda div.productosdestacados {
+    display: flex;
+    flex-direction: row;
+  }
+  main section.segunda div.productosestrella {
+    display: flex;
+    flex-direction: row;
+  }
+  footer section.primerfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  footer section.primerfooter img {
+    padding: 0px 0px 0px 40px;
+  }
+  footer section.primerfooter div.redes {
+    padding: 0px 40px 0px 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
